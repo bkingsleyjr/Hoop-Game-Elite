@@ -1,0 +1,1402 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {	
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;    
+	background: #fff;
+	color: #333333;	
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    color: white; 
+    background: orange;
+}
+
+::-webkit-selection {
+    color: white; 
+    background: orange;
+}
+
+::-moz-selection {
+    color: white; 
+    background: orange;
+}
+
+
+/*--- header-area start ---*/
+.header-area {
+    background: rgba(0,0,0,0.8);
+    padding: 250px 0;
+}
+
+.header-area1 {
+    background-image: url('img/hero-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 0;
+}
+
+.header_part h1 {
+    color: #fff;
+    font-size: 72px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.header_part p {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 300;
+    margin: 0;
+    line-height: 34px;
+}
+
+/*--- our_mission_area start ---*/
+.our_mission_area {
+    background-image: url('img/bg-2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.our_mission_heading_text h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+
+
+.our_mission__part {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    align-items: start;
+    justify-content: space-around;
+    grid-row-gap: 20px;   
+}
+
+
+
+.our_mission__text {
+    background-color: #2d136c94;
+    border: 1px solid #481782;
+    border-radius: 13px;
+    padding: 30px 25px;
+    height: 100%;
+    padding-bottom: 28px;
+}
+
+
+.our_mission__text h4 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+.our_mission__text p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    line-height: 35px;
+    padding-bottom: 9px;
+}
+
+
+/*--- Group_Training_area start ---*/
+.Group_Training_area {
+    background-image: url('img/bg-2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    padding-bottom: 150px;
+}
+
+.Group_Training_heading_text h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+
+.Group_Training_heading_text p {
+    color: #fff;
+    font-size: 22px;
+    margin: 0;
+    line-height: 36px;
+    font-weight: 300;
+    padding-bottom: 40px;    
+}
+
+.Group_Training_heading_text h3 {
+    color: #fff;
+    font-size: 39px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+
+
+.inner1_part {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 80px;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.inner1__item h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.inner1__item p {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 28px;  
+}
+
+
+.inner2_heading_text p {
+    color: #fff;
+    font-size: 22px;
+    margin: 0;
+    line-height: 36px;
+    font-weight: 300;
+    padding-bottom: 40px; 
+    padding-top: 40px;
+}
+
+.inner2_heading_text h3 {
+    color: #fff;
+    font-size: 39px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 40px;    
+}
+
+/*--- Group_Training_area start ---*/
+.Teams_area {
+    background-image: url('img/bg-2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    padding-bottom: 130px;
+}
+
+.Teams__heading_text h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+
+.Teams__heading_text p {
+    color: #fff;
+    font-size: 22px;
+    margin: 0;
+    line-height: 36px;
+    font-weight: 300;
+    padding-bottom: 18px;    
+}
+
+.Teams__heading_text h3 {
+    color: #fff;
+    font-size: 39px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 22px;
+}
+
+
+.teams_part {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 80px;
+    align-items: start;
+    justify-content: space-around;   
+}
+
+.teams_items img {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.teams_items h3 {
+    color: #fff;
+    font-size: 29px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 18px;
+    text-align: center;
+    padding-top: 17px;   
+}
+
+.teams_items ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.teams_items ul li {
+    display: flex;
+    align-items: start;
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+    font-weight: 300;
+    line-height: 34px;
+    padding-bottom: 8px;
+}
+
+.teams_items ul li span {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 23px;
+    margin-top: 14px;
+}
+
+
+
+
+
+.teams_items_text1 p {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    line-height: 37px;
+    font-weight: 300;    
+}
+
+
+
+
+/*--- Private_Training_area start ---*/
+.Private_Training_area {
+    background-image: url('img/bg-2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    padding-bottom: 180px;
+}
+
+.Private_Training_heading_text h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+
+.Private_Training_heading_text p {
+    color: #fff;
+    font-size: 22px;
+    margin: 0;
+    line-height: 36px;
+    font-weight: 300;
+    padding-bottom: 18px;    
+}
+
+.Private_Training_heading_text h3 {
+    color: #fff;
+    font-size: 39px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 22px;
+    padding-top: 15px;
+}
+
+
+.main_Teams_line_part {
+    background-color: #57497d94;
+    border-radius: 5px;
+    padding: 1px;    
+}
+
+
+.Teams_line_part {
+    display: flex;
+}
+
+.Teams_lines_ {
+    width: 50%;
+}
+
+.Teams_lines_ p {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0;
+    padding: 31px 26px;
+}
+
+
+.line1 {
+    background-color: #1a1737;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+.line2 {
+    background-color: #0d092a;
+}
+
+.line3 {
+    background-color: #1a1737;
+}
+
+
+.line4 {
+    background-color: #0d092a;
+    border-radius: 0px 0px 5px 5px;
+}
+
+
+.Teams_lines___ {
+    border-right: 1px solid #0d0a2b;
+}
+
+
+/*--- summer_camps_area start ---*/
+.summer_camps_area {
+    padding: 0px 0px;
+    background-color: #0d0a2c;
+}
+
+
+
+.summer_camps_part {
+    display: flex;
+}
+
+
+.summer_camps_left {
+    width: 70%;
+}
+
+
+.inner_summer_camps {
+    background-image: url('img/bg-4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 126px 100px;
+    padding-right: 10px;
+}
+
+.inner_summer_camps h2 {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 23px;
+}
+
+.inner_summer_camps p {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0;
+    padding-bottom: 13px;
+    line-height: 43px;    
+}
+
+.inner_summer_camps a {
+    color: #fff;
+    font-size: 37px;
+    font-weight: 400;
+    margin: 0;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 5px;
+    transition: 0.2s all ease;  
+}
+
+.inner_summer_camps a:hover {
+    text-decoration: underline;
+}
+
+.summer_camps_right {
+     width: 30%;  
+}
+
+.summer_camps_right img {
+    width: 100%;
+}
+
+
+
+/*--- Testimonial-area start ---*/
+.Testimonial-area {
+    background-image: url('img/bg-3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+    padding-top: 150px;
+}
+
+.Testimonial_heading_text h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.Testimonial_heading_text p {
+    color: #fff;
+    font-size: 22px;
+    margin: 0;
+    line-height: 36px;
+    font-weight: 300;
+    padding-bottom: 40px;    
+}
+
+
+.Testimonial_part {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    align-items: start;
+    justify-content: space-around;
+    grid-row-gap: 30px;    
+}
+
+
+
+.Testimonial_text h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 20px;
+    line-height: 43px;
+}
+
+.Testimonial_text p {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 200;
+    margin: 0;
+    line-height: 40px;    
+}
+
+
+
+/*--- footer-area start ---*/
+.footer_area {
+    background-image: url('img/bg-1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 160px 0;
+}
+
+.footer_heading_text h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.footer_heading_text p {
+    color: #fff;
+    font-size: 22px;
+    margin: 0;
+    line-height: 36px;
+    font-weight: 300;
+    padding-bottom: 20px;    
+}
+
+.footer_heading_text h3 {
+    color: #fff;
+    font-size: 37px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 15px; 
+}
+
+
+.footer_part {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    align-items: center;
+    justify-content: space-around;
+    grid-row-gap: 20px;    
+}
+
+
+
+.footer_text {
+    background-color: #2d136c;
+    border: 1px solid #481782;
+    border-radius: 13px;
+    padding: 40px 30px;
+}
+
+
+.footer_text h4 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 24px;
+}
+
+.footer_text p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.footer_text p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.container {
+    max-width: 1300px;
+    display: block;
+    margin: auto;
+    padding: 0 60px;
+}
+
+
+
+
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+.header_part h1 {
+    font-size: 58px;
+}
+
+.header_part p br {
+    display: none;
+}
+
+.header-area {
+    padding: 163px 0;
+}
+
+.our_mission_heading_text h2 {
+    font-size: 45px;
+}
+
+.our_mission__text p br {
+    display: none;
+}
+
+.Group_Training_heading_text h2 {
+    font-size: 45px;
+}
+
+
+.Group_Training_heading_text p br {
+    display: none;
+}
+
+.Group_Training_heading_text h3 {
+    font-size: 30px;
+}
+
+.inner1__item h2 {
+    font-size: 30px;
+}
+
+.inner1__item p {
+    font-size: 20px;
+}
+
+.inner2_heading_text p br {
+    display: none;
+}
+
+.inner2_heading_text h3 {
+    font-size: 30px;
+}
+
+.inner1_part {
+    grid-column-gap: 50px;
+}
+
+.Group_Training_area {
+    padding-bottom: 100px;
+}
+
+.Teams__heading_text h2 {
+    font-size: 45px;
+}
+
+.Teams__heading_text p br {
+    display: none;
+}
+
+.Teams__heading_text h3 {
+    font-size: 30px;
+}
+
+
+.teams_items_text1 p br {
+    display: none;
+}
+
+.teams_items ul li br {
+    display: none;
+}
+
+.Private_Training_heading_text h2 {
+    font-size: 45px;
+}
+
+.Private_Training_heading_text p br {
+    display: none;
+}
+
+.Private_Training_heading_text h3 {
+    font-size: 30px;
+}
+
+.inner_summer_camps h2 {
+    font-size: 45px;
+}
+
+.inner_summer_camps p br {
+    display: none;
+}
+
+.inner_summer_camps {
+    padding: 43px 54px;
+    padding-right: 13px;
+}
+
+.inner_summer_camps p {
+    font-size: 22px;
+    padding-bottom: 13px;
+    line-height: 32px;
+}
+
+.Testimonial_heading_text h2 {
+    font-size: 45px;
+}
+
+.Testimonial_heading_text p br {
+    display: none;
+}
+
+.Testimonial_text h3 br {
+    display: none;
+}
+
+
+.Testimonial_text h3 {
+    font-size: 22px;
+    padding-bottom: 20px;
+    line-height: 38px;
+}
+
+.Testimonial_text p {
+    font-size: 16px;
+    line-height: 31px;
+}
+
+.footer_heading_text h2 {
+    font-size: 45px;
+}
+
+.footer_heading_text p br {
+    display: none;
+}
+
+
+.footer_heading_text h3 {
+    font-size: 30px;
+}
+
+.footer_area {
+    padding: 94px 0;
+}
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+.header_part h1 {
+    font-size: 46px;
+    text-align: center;
+}
+
+.header_part p {
+    font-size: 21px;
+    text-align: center;
+}
+
+.header_part p br {
+    display: none;
+}
+
+.header-area {
+    padding: 87px 0;
+}
+
+.our_mission_heading_text h2 {
+    font-size: 40px;
+}
+
+.our_mission__text p br {
+    display: none;
+}
+
+.our_mission__text h4 {
+    font-size: 21px;
+    padding-bottom: 25px;
+}
+
+.our_mission__text p {
+    font-size: 13px;
+    line-height: 24px;
+    padding-bottom: 9px;
+    text-align: justify;
+}
+
+.Group_Training_heading_text h2 {
+    font-size: 40px;
+}
+
+.Group_Training_heading_text p br {
+    display: none;
+}
+
+
+.Group_Training_heading_text h3 {
+    font-size: 30px;
+}
+
+.inner1__item h2 {
+    font-size: 22px;
+}
+
+.inner1_part {
+    grid-column-gap: 10px;
+}
+
+.inner1__item p {
+    font-size: 15px;
+    padding-top: 23px;
+}
+
+
+.inner2_heading_text p br {
+    display: none;
+}
+
+.inner2_heading_text h3 {
+    font-size: 30px;
+}
+
+.Group_Training_area {
+    padding: 40px 0;
+    padding-bottom: 40px;
+}
+
+.Teams__heading_text h2 {
+    font-size: 40px;
+}
+
+.Teams__heading_text p br {
+    display: none;
+}
+
+.Teams__heading_text h3 {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.teams_part {
+    grid-column-gap: 30px;
+}
+
+.teams_items img {
+    width: 250px;
+    height: 250px;
+}
+
+.teams_items h3 {
+    font-size: 21px;
+}
+
+.teams_items_text1 p {
+    font-size: 17px;
+}
+
+.teams_items_text1 p br {
+    display: none;
+}
+
+
+.teams_items ul li br {
+    display: none;
+}
+
+.teams_items ul li {
+    font-size: 17px;
+}
+
+.teams_items ul li span {
+    width: 14px;
+    height: 7px;
+}
+
+.Teams_area {
+    padding: 59px 0;
+    padding-bottom: 20px;
+}
+
+.Private_Training_heading_text h2 {
+    font-size: 40px;
+}
+
+.Private_Training_heading_text p br {
+    display: none;
+}
+
+.Private_Training_heading_text h3 {
+    font-size: 25px;
+}
+
+.Teams_lines_ p {
+    font-size: 15px;
+    padding: 23px 21px;
+}
+
+.Private_Training_area {
+    padding: 78px 0;
+    padding-bottom: 70px;
+}
+
+.inner_summer_camps {
+    padding: 80px 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.summer_camps_part {
+    display: block;
+}
+
+.summer_camps_left {
+    width: 100%;
+}
+
+.summer_camps_right {
+    width: 100%;
+}
+
+.Testimonial-area {
+    padding: 0px 0;
+    padding-top: 90px;
+}
+
+.inner_summer_camps h2 {
+    font-size: 40px;
+}
+
+.inner_summer_camps p br {
+    display: none;
+}
+
+.inner_summer_camps p br {
+    display: none;
+}
+
+
+.inner_summer_camps p {
+    font-size: 19px;
+    padding-bottom: 15px;
+    line-height: 36px;
+}
+
+.inner_summer_camps a {
+    font-size: 28px;
+    padding-top: 8px;
+}
+
+.Testimonial_heading_text h2 {
+    font-size: 40px;
+}
+
+
+.Testimonial_heading_text p br {
+    display: none;
+}
+
+.Testimonial_text h3 {
+    font-size: 18px;
+    padding-bottom: 11px;
+    line-height: 33px;
+}
+
+.Testimonial_text p {
+    font-size: 13px;
+    line-height: 26px;
+}
+
+.footer_area {
+    padding: 95px 0;
+}
+
+.footer_heading_text h2 {
+    font-size: 40px;
+}
+
+.footer_heading_text p br {
+    display: none;
+}
+
+.footer_heading_text h3 {
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.footer_part {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 20px;
+}
+
+.footer_text {
+    border-radius: 13px;
+    padding: 25px 24px;
+}
+
+
+.footer_text h4 {
+    font-size: 24px;
+    padding-bottom: 16px;
+}
+
+.footer_text p {
+    font-size: 16px;
+}
+
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile - Mobile
+====================================
+*/
+@media screen and (max-width: 767px) {
+
+
+.container {
+    padding: 0 20px;
+}
+
+.footer_part {
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 20px;
+}
+
+.footer_area {
+    padding: 35px 0;
+}
+
+
+.footer_heading_text h2 {
+    font-size: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+
+br {
+    display: none;
+}
+
+
+.footer_heading_text p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.footer_heading_text h3 {
+    font-size: 24px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.footer_text {
+    border-radius: 13px;
+    padding: 25px 15px;
+}
+
+.footer_text h4 {
+    font-size: 23px;
+    padding-bottom: 17px;
+}
+
+.footer_text p {
+    font-size: 17px;
+}
+
+.Testimonial_heading_text h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.Testimonial_heading_text p {
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 300;
+    padding-bottom: 34px;
+    text-align: center;
+}
+
+.Testimonial_part {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    align-items: start;
+    justify-content: space-around;
+    grid-row-gap: 20px;
+}
+
+.Testimonial_text h3 {
+
+    font-size: 16px;
+    padding-bottom: 20px;
+    line-height: 28px;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.Testimonial_text p {
+    font-size: 14px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.Testimonial-area {
+    padding: 30px 0;
+    padding-top: 30px;
+}
+
+.inner_summer_camps {
+    padding: 30px 20px;
+    padding-right: 20px;
+}
+
+.summer_camps_part {
+    display: block;
+}
+
+.summer_camps_left {
+    width: 100%;
+    text-align: center;
+}
+
+.inner_summer_camps h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.inner_summer_camps p {
+    font-size: 16px;
+    padding-bottom: 13px;
+    line-height: 33px;
+}
+
+
+.inner_summer_camps a {
+    font-size: 16px;
+}
+
+.summer_camps_right {
+    width: 100%;
+}
+
+.Private_Training_heading_text h2 {
+    font-size: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.Private_Training_heading_text p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    padding-bottom: 18px;
+    text-align: center;
+}
+
+
+.Private_Training_heading_text h3 {
+    font-size: 25px;
+    padding-bottom: 22px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.Teams_lines_ p {
+    font-size: 13px;
+    padding: 15px 14px;
+}
+
+.Private_Training_area {
+    padding: 30px 0;
+    padding-bottom: 30px;
+}
+
+
+.Teams__heading_text h2 {
+    font-size: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.Teams__heading_text p {
+    font-size: 16px;
+    line-height: 31px;
+    font-weight: 300;
+    padding-bottom: 18px;
+    text-align: center;
+}
+
+
+
+.Teams__heading_text h3 {
+    font-size: 25px;
+    padding-bottom: 18px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.teams_part {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.teams_items img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.teams_items h3 {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.teams_items ul li {
+    font-size: 16px;
+    margin: 0;
+    font-weight: 300;
+    line-height: 25px;
+    padding-bottom: 8px;
+}
+
+.teams_items ul li span {
+    width: 9px;
+    height: 5px;
+    border-radius: 50%;
+    margin-right: 14px;
+    margin-top: 14px;
+}
+
+
+.teams_items ul {
+    padding-bottom: 33px;
+}
+
+.Teams_area {
+    padding: 20px 0;
+    padding-bottom: 41px;
+}
+
+.header_part h1 {
+    font-size: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+    line-height: 42px;
+}
+
+.header_part p {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    line-height: 26px;
+    text-align: center;
+}
+
+.header-area {
+    padding: 35px 0;
+}
+
+.our_mission_heading_text h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.our_mission__part {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.our_mission__text h4 {
+    font-size: 20px;
+    padding-bottom: 17px;
+    text-align: center;
+}
+
+.our_mission__text p {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0;
+    line-height: 25px;
+    padding-bottom: 9px;
+    text-align: center;
+}
+
+.our_mission_area {
+    padding: 30px 0;
+}
+
+.Group_Training_heading_text h2 {
+    font-size: 30px;
+    padding-bottom: 15px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.Group_Training_heading_text p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+
+.Group_Training_heading_text h3 {
+    font-size: 26px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.inner1_part {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    align-items: start;
+    grid-row-gap: 35px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.inner1__item h2 {
+    font-size: 30px;
+}
+
+.inner1__item p {
+    font-size: 19px;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 17px;
+}
+
+.inner2_heading_text p {
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 300;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.inner2_heading_text h3 {
+    font-size: 25px;
+    padding-bottom: 37px;
+    text-align: center;
+}
+
+.Group_Training_area {
+    padding: 30px 0;
+    padding-bottom: 45px;
+}
+
+
+
+
+}
